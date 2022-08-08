@@ -1,37 +1,62 @@
 # Part 1
 ### a)
-
-
-
+grep "blas" forest/*1 > captured/blastoise.txt
+grep "bulb" forest/*1 > captured/bulbasaur.txt
+grep "beed" forest/*1 > captured/beedrill.txt
+grep "butt" forest/*1 > captured/butterfree.txt
+grep "mander" forest/*2 > captured/charmander.txt
+grep "meleon" forest/*2 > captured/charmeleon.txt
+grep "izard" forest/*2 > captured/charizard.txt
+grep "pika" forest/*3 > captured/pikachu.txt
+grep "jigg" forest/*3 > captured/jigglypuff.txt
+grep "ivys" forest/*3 > captured/ivysaur.txt
+grep "meow" forest/*3 > captured/meowth.txt
+grep "wart" forest/*4 > captured/wartortle.txt
+grep "psyd" forest/*4 > captured/psyduck.txt
+grep "venu" forest/*4 > captured/venusaur.txt
+grep "squi" forest/*4 > captured/squirtle.txt
 
 ### b)
-
 
 
 ### c)
-
-
-
-
-
-
-
-
-
-
-
-
+grep "blas" forest/*1 > captured/blastoise.txt
+grep "bulb" forest/*1 > captured/bulbasaur.txt
+grep "beed" forest/*1 > captured/beedrill.txt
+grep "butt" forest/*1 > captured/butterfree.txt
+grep "mander" forest/*2 > captured/charmander.txt
+grep "meleon" forest/*2 > captured/charmeleon.txt
+grep "izard" forest/*2 > captured/charizard.txt
+grep "pika" forest/*3 > captured/pikachu.txt
+grep "jigg" forest/*3 > captured/jigglypuff.txt
+grep "ivys" forest/*3 > captured/ivysaur.txt
+grep "meow" forest/*3 > captured/meowth.txt
+grep "wart" forest/*4 > captured/wartortle.txt
+grep "psyd" forest/*4 > captured/psyduck.txt
+grep "venu" forest/*4 > captured/venusaur.txt
+grep "squi" forest/*4 > captured/squirtle.txt
 
 # Part 2
 ### a)
-
-
-
-
-
+      ls captured | wc -l
 
 ### b)
-
+      find captured/ -type f -exec wc -l {} + | sort -rn
+      40 captured//pikachu.txt
+      40 captured//charizard.txt
+      40 captured//beedrill.txt
+      38 captured//butterfree.txt
+      38 captured//blastoise.txt
+      37 captured//wartortle.txt
+      37 captured//psyduck.txt
+      37 captured//charmeleon.txt
+      36 captured//charmander.txt
+      34 captured//squirtle.txt
+      34 captured//jigglypuff.txt
+      33 captured//meowth.txt
+      33 captured//ivysaur.txt
+      32 captured//venusaur.txt
+      30 captured//bulbasaur.txt
 
 
 
